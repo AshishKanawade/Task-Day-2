@@ -1,16 +1,16 @@
 Question:  List five differences between Browser JS(Console) vs NodeJS.
 Answer:
-	        	      Browser JS(Console)						                                           NodeJS
+	        	      Browser JS(Console)						     NodeJS
 	        ------------------------------------------------------------------------------------------------------------------------
-	        1. Node processes request object.				                         1. Browsers processes response objects.
-	        2. In Node everything is a module,				                       2. Moduling is not mandatory in client side 
-	           You must keep your code inside a module.		   	                  JavaScript, i.e., in browsers.
-	        3. Node doesn't have a predefined "window" object		             3. Window is a predefined global object which has 
-	           because it doesn't have a window to draw anything.		            functions and attributes.
-	        4. Location" object is related to a particular url,		           4. Location is another predefined object in browsers,
-	           it is for page specific. So, node doesn't require 	 	            that has all the information about the url we have
-	           that.							                                              loaded. 
-	        5. Node is headless.						                                 5. Browsers are not headless.
+	        1. Node processes request object.				       1. Browsers processes response objects.
+	        2. In Node everything is a module,				       2. Moduling is not mandatory in client side 
+	           You must keep your code inside a module.		   	          JavaScript, i.e., in browsers.
+	        3. Node doesn't have a predefined "window" object		       3. Window is a predefined global object which has 
+	           because it doesn't have a window to draw anything.		          functions and attributes.
+	        4. Location" object is related to a particular url,		       4. Location is another predefined object in browsers,
+	           it is for page specific. So, node doesn't require 	 	          that has all the information about the url we have
+	           that.							          loaded. 
+	        5. Node is headless.						       5. Browsers are not headless.
           
           
 Question:  How does the browser actually render a website
