@@ -1,0 +1,45 @@
+Question:  List five differences between Browser JS(Console) vs NodeJS.
+Answer:
+	        	      Browser JS(Console)						                                           NodeJS
+	        ------------------------------------------------------------------------------------------------------------------------
+	        1. Node processes request object.				                         1. Browsers processes response objects.
+	        2. In Node everything is a module,				                       2. Moduling is not mandatory in client side 
+	           You must keep your code inside a module.		   	                  JavaScript, i.e., in browsers.
+	        3. Node doesn't have a predefined "window" object		             3. Window is a predefined global object which has 
+	           because it doesn't have a window to draw anything.		            functions and attributes.
+	        4. Location" object is related to a particular url,		           4. Location is another predefined object in browsers,
+	           it is for page specific. So, node doesn't require 	 	            that has all the information about the url we have
+	           that.							                                              loaded. 
+	        5. Node is headless.						                                 5. Browsers are not headless.
+          
+          
+Question:  How does the browser actually render a website
+Summary:  
+           1.	Parsing a CSS or HTML that creates a dom tree
+           2.	The dom tree then gets converted into a render tree
+           3.	It's actually 4 trees. 
+                    a). Render objects. 
+                    b). Render styles.
+                    c). Render layers.
+                    d). Line boxes.
+          4. Layout will parse and computes the elements, appearing on the page based on the installation to draw the elements by taking the 
+             call of the CSS and then give the value, position, and image.
+             It will arrange the setup based on the changes made. like when we change the font size of a document the entire arrangement of
+             document changes likewise based on the changes  layout will rearrange the layouts.
+          5. Painting computes bitmaps and composites the formate which we expect on the page
+                Note:*Use always script tag at the bottom 
+                     *Parse will not get interrupted
+                     *It will become easy and faster to render
+                     
+                     
+Question:  Execute the below code and write your description in txt file
+Answer:
+           a. typeof(1)          -> number
+           b. typeof(1.1)        -> number
+           c. typeof('1.1')      -> string
+           d. typeof(true)       -> boolean
+           e. typeof(null)       -> object
+           f. typeof(undefined)  -> undefined
+           g. typeof([])         -> object
+           h. typeof({})         -> object
+           i. typeof(NaN)        -> number
