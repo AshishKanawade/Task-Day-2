@@ -10,28 +10,10 @@ Answer:
 	        4. Location is another predefined object in browsers,		       4. Location" object is related to a particular url,		       
 	           that has all the information about the url we have     		  it is for page specific. So, node doesn't require
 	           loaded. 								  that.							          
-	        5. Browsers are not headless.					       5. Node is headless.						       
+	        5. It is used in front end developement.				       5. It is used in back end developement.						       
           
-          
-Question:  How does the browser actually render a website
-Summary:  
-           1.	Parsing a CSS or HTML that creates a dom tree
-           2.	The dom tree then gets converted into a render tree
-           3.	It's actually 4 trees. 
-                    a). Render objects. 
-                    b). Render styles.
-                    c). Render layers.
-                    d). Line boxes.
-          4. Layout will parse and computes the elements, appearing on the page based on the installation to draw the elements by taking the 
-             call of the CSS and then give the value, position, and image.
-             It will arrange the setup based on the changes made. like when we change the font size of a document the entire arrangement of
-             document changes likewise based on the changes  layout will rearrange the layouts.
-          5. Painting computes bitmaps and composites the formate which we expect on the page
-                Note:*Use always script tag at the bottom 
-                     *Parse will not get interrupted
-                     *It will become easy and faster to render
-                     
-                     
+   
+     
 Question:  Execute the below code and write your description in txt file
 Answer:
            a. typeof(1)          -> number
